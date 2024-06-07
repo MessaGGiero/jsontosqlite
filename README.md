@@ -58,7 +58,7 @@ It can do a lot of cool things, some of them being:
     python -m venv jsontosqlite_env
     source jsontosqlite_env/bin/activate
     ```
-  - Second step into the project's ./bin directory and run the script
+- Second step into the project's ./bin directory and run the script
     for Windows:
     ```
     compilegui.bat
