@@ -65,7 +65,7 @@ It can do a lot of cool things, some of them being:
     ```
     compilegui.bat
     ```
-    for Linux (install the package python3-tk first:  sudo apt-get install python3-tk)
+    for Linux (install the package python3-tk first:  ```sudo apt-get install python3-tk```)
     ```
     compilegui.sh
     ``` 
