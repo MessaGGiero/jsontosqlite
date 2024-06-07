@@ -47,7 +47,12 @@ It can do a lot of cool things, some of them being:
 - First **Fork** this repo by clicking button on top right corner
 - Then **Clone** the repo in your local machine
 - Navigate to the directory of your project
-- Install all the requirements given in **[requirements.txt](https://github.com/kishanrajput23/Jarvis-Desktop-Voice-Assistant/blob/main/Requirements.txt)**
+- Create and activate a new python virtual environment:
+  ```
+    python -m venv jsontosqlite_env
+    source jsontosqlite_env/bin/activate
+    ```
+  Install all dependency in the requirements file given in **[requirements.txt]()**
 - Only for Linux ditribuition Debian/Ubuntu install the package: sudo apt-get install python3-tk
 - Run the python script named as ```jsontosqlitegui.py``` which is in Jarvis Directory.
 - Optionally you can follow the steps in the section "📌Executable Windows/linux creation" to create a binary executable that is easier to use
@@ -55,13 +60,10 @@ It can do a lot of cool things, some of them being:
 
 ## 📌Executable Windows/Linux creation
 
-- First step open a command shell and create and run a virtual env
-    ```
-    python -m venv jsontosqlite_env
-    source jsontosqlite_env/bin/activate
-    ```
-- Second step into the project's ./bin directory and run the script
-    for Windows:
+- First step open a command shell
+- Second step into the project's ./bin directory run the script:
+  
+    for Windows.
     ```
     compilegui.bat
     ```
