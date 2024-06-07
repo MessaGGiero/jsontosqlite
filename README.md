@@ -48,7 +48,7 @@ It can do a lot of cool things, some of them being:
 - Navigate to the directory of your project
 - Install all the requirements given in **[requirements.txt](https://github.com/kishanrajput23/Jarvis-Desktop-Voice-Assistant/blob/main/Requirements.txt)**
 - Run the python script named as ```jsontosqlitegui.py``` which is in Jarvis Directory.
-- Optionally you can follow the steps in the section "📌Executable Windows creation" to create a binary executable that is easier to use
+- Optionally you can follow the steps in the section "📌Executable Windows/linux creation" to create a binary executable that is easier to use
 
 
 ## 📌Executable Windows/Linux creation
