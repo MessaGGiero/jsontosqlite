@@ -51,7 +51,7 @@ It can do a lot of cool things, some of them being:
 - Optionally you can follow the steps in the section "📌Executable Windows creation" to create a binary executable that is easier to use
 
 
-## 📌Executable Windows creation
+## 📌Executable Windows/Linux creation
 
 - First step open a command shell and create and run a virtual env
     ```
@@ -61,11 +61,11 @@ It can do a lot of cool things, some of them being:
   - Second step into the project's ./bin directory and run the script
     for Windows:
     ```
-    
+    compilegui.bat
     ```
     for Linux
     ```
-    
+    compilegui.sh
     ``` 
   - 
 ## 📌Contributing
