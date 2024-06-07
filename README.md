@@ -23,7 +23,7 @@ The program also allows you to import json array files into your persistent SQLi
 ]
 
 ```
-**🔸 To read the data imported from the database created by the import, you could use [sqlitebrowser](https://sqlitebrowser.org/)   
+**🔸 To read the data imported in the database created, you could use [sqlitebrowser](https://sqlitebrowser.org/)   
 ## 📌Built with
 
 <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
