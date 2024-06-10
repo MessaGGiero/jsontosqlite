@@ -1,9 +1,12 @@
 #!/usr/bin/env python
-
-__author__ = "Massimo Iannuzzi"
-__copyright__ = "Copyright 2021 Walgreen Co."
-__maintainer__ = "DBA TEAM"
-__email__ = ""
+"""
+    Flex Cosmos data management
+    __author__ = "Massimo Iannuzzi"
+    __copyright__ = "free use"
+    __license__ = "MIT License"
+    __maintainer__ = "Massimo Iannuzzi"
+    __email__ = "max.iannuzzi@gmail.com"
+"""
 
 # Application messages
 # PARSE EXCEPTION
