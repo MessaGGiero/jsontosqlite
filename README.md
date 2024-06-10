@@ -2,9 +2,9 @@
 
 
 
-**This project allows to import files with arrays of json files into a table in a SQLite database created by the scope.
+**This project allows to import files with arrays of json files into a table in a [SQLite](https://www.sqlite.org/) database created by the scope.
 The project provides a graphical interface that facilitates operation.
-The program also allows you to import json array files into your persistent SQLite database and allows you to export the database table into json array files.**
+The program also allows you to import json array files into your persistent [SQLite](https://www.sqlite.org/) database and allows you to export the database table into json array files.**
 
 **🔸 Example of a json array contained in a file.**
 ```
