@@ -55,6 +55,7 @@ It can do a lot of cool things, some of them being:
   Install all dependency in the requirements file given in **[requirements.txt](https://github.com/MessaGGiero/jsontosqlite/blob/main/requirement.txt)**
 - Only for Linux ditribuition Debian/Ubuntu install the package: sudo apt-get install python3-tk
 - Run the python script named as ```jsontosqlitegui.py``` which is in Jarvis Directory.
+  ```python3 jsontosqlitegui.py```
 - Optionally you can follow the steps in the section "📌Executable Windows/linux creation" to create a binary executable that is easier to use
 
 
