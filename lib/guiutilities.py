@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-    Flex Cosmos data management
+    Json To SQLite
     __author__ = "Massimo Iannuzzi"
     __copyright__ = "free use"
     __license__ = "MIT License"

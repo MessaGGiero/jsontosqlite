@@ -1,0 +1,5 @@
+.idea/
+rework.md
+jsontosqlite_env/
+ __pycache__/
+  *.pyc

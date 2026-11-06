@@ -29,10 +29,10 @@ The program also allows you to import json array files into your persistent [SQL
 <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
 
 ## 📚 Requirment
-- The project requires a python enviroment 3.9 or higher
-- [ijson==3.3.0](https://pypi.org/project/ijson/) - Iterative JSON parser with standard Python iterator interfaces.
-- [PySimpleGUI==4.60.5](https://pypi.org/project/PySimpleGUI/4.60.5/) - Python GUIs for Humans. (free version)
-- [pyinstaller==5.11.0](https://pypi.org/project/pyinstaller//) - PyInstaller bundles a Python application and all its dependencies into a single package.
+- The project requires a python enviroment 3.14 or higher
+- [ijson>=3.6.0](https://pypi.org/project/ijson/) - Iterative JSON parser with standard Python iterator interfaces. Supports string literals in JSON.
+- [PySimpleGUI>=6.4](https://pypi.org/project/PySimpleGUI/) - Python GUIs for Humans. (free version) Compatible with Python 3.14.
+- [pyinstaller>=6.22.3](https://pypi.org/project/pyinstaller/) - PyInstaller bundles a Python application and all its dependencies into a single package.
 
 ## 📌Features
 
