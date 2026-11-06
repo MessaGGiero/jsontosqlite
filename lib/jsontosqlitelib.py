@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-    Flex Cosmos data management
+    Json To SQLite
     __author__ = "Massimo Iannuzzi"
     __copyright__ = "free use"
     __license__ = "MIT License"
@@ -203,11 +203,11 @@ def exportTableToJson(database_name,table_name):
     conn.close()
     return  json_file_export
 
-def exportTableToJson(database_name,table_name):
+def exportTableToJson(database_name, table_name):
     """
     :param database_name:
     :param table_name:
-    :return:
+    :return: JSON file path
     """
     dirname = os.path.dirname(database_name)
     json_file_export = f'{dirname}/{table_name}.json'
@@ -219,26 +219,27 @@ def exportTableToJson(database_name,table_name):
     # fetchall as result
     with open(json_file_export, 'w') as out:
         out.write('[')
-        while (row:=c.fetchone()) is not None:
+        while (row := c.fetchone()) is not None:
             json_out = {}
             columns = list(c.description)
             json_out = dict((c.description[i][0], leteral_manage(value)) for i, value in enumerate(row))
             if first_item:
-                out.write(json.dumps(json_out,indent=4))
+                out.write(json.dumps(json_out, indent=4))
                 first_item = False
             else:
-                out.write(",\n" + json.dumps(json_out,indent=4))
+                out.write(",\n" + json.dumps(json_out, indent=4))
         out.write("]")
     # close connection
     conn.close()
-    return  json_file_export
+    return json_file_export
 
 def leteral_manage(value):
-    ret_value = None
+    """Manage string literals in exported values"""
+    ret_value = value
     try:
-        ret_value = ast.literal_eval(value)
+        ret_value = ast.literal_eval(str(value))
     except:
-        ret_value = value
+        pass
 
     return ret_value
 
